@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Marvel' , sans-serif;
+}
+
+header{
+    
+    background-image: 
+    url(/thumb-1920-463445.jpg);
+    
+    
+    background-repeat: 
+     
+    no-repeat;
+   
+    background-position:
+     center bottom;
+     background-attachment: fixed;
+    
+     background-size:     
+     cover;
+    width: 
+    100%;
+    
+    height:
+    620px;
+       
+    border-color: firebrick;  
+    border-style: groove;
+    border-left-color: black;
+        
+}
+
+.A{
+
+ background-image:  url(/IMG_20220401_165439420.jpg);
+ background-repeat: no-repeat;
+ width:200px ;
+ height: 200px;
+ border-radius: 600px;
+ background-size: cover;
+ border-style: groove;
+ border-color: brown;
+ 
+}
+.B{ font-size: 50px; 
+    font-family: inherit;
+    font-weight: 900;
+    -webkit-text-stroke: 0.2px rgb(90, 72, 72);
+     color: rgb(15, 14, 14);
+     
+}
+.C{ font-size: 20px; 
+    font-family: inherit;
+    font-weight: 900;
+    -webkit-text-stroke: 0.2px rgb(90, 72, 72);
+     color: rgb(15, 14, 14);
+}
+/*#bloque{padre
+	width: 100%;
+}
+#bloque .A, #bloque .B{  hijos
+	display: inline-block;
+    left: 200px;
+}
+*/
+#bloque{  /*padre*/
+	position: relative;
+	padding: 0px;
+   
+}
+#bloque .B{  /*hijos*/
+	position: absolute;
+	left: 200px;
+	top:100px;
+}
+
+#bloque .C {
+    text-align: center;
+    background-color: rgb(235, 193, 193);
+   border-radius: 500px;
+   border-style: groove;
+   border-color: brown;
+   width: 85px;
+    position:absolute;
+	left: 1640px;
+	top:100px;
+    -webkit-text-stroke: 0.2px rgb(90, 72, 72);
+     color: rgb(15, 14, 14);
+    
+}
+/*.insta{
+    background-image: url(/ico_instagram.png);
+    background-repeat: no-repeat;
+ width:50px ;
+ height: 50px;
+ border-radius: 600px;
+ background-size: cover; 
+}
+.face{
+    background-image: url(/face.png);
+    background-repeat: no-repeat;
+ width:50px ;
+ height: 50px;
+ border-radius: 600px;
+ background-size: cover;
+
+}
+
+
+.lik{
+    background-image: url(/ico_linkedin.png);
+    background-repeat: no-repeat;
+ width:50px ;
+ height: 50px;
+ border-radius: 600px;
+ background-size: cover;
+
+}
+#redes{
+text-align: center;
+
+
+
+}
+#redes .face, #redes .isnta, #redes .lik {  
+	display: inline-block;
+    left: 200px;
+}*/
+
+footer{
+    text-align: center;
+}
